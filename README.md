@@ -10,7 +10,6 @@ Use:
 Example (uses jQuery):
 
     <script type ="text/Javascript">
-
       $('#chat-header').click(function() {
         $('#chat-wrapper').toggle();
         chatOpen.toggleStatus();
@@ -19,7 +18,6 @@ Example (uses jQuery):
       if (chatOpen.getStatus()) {
         $('#chat-wrapper').show();
       }
-
     </script>
 
     <div>
