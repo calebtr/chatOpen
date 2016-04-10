@@ -9,29 +9,28 @@ Use:
 
 Example (uses jQuery):
 
-&lt;script type ="text/Javascript">
+    &lt;script type ="text/Javascript">
 
-  $('#chat-header').click(function() {
+      $('#chat-header').click(function() {
 
-    $('#chat-wrapper').toggle();
+        $('#chat-wrapper').toggle();
 
-    chatOpen.toggleStatus();
+        chatOpen.toggleStatus();
 
-  });
+      });
 
-  if (chatOpen.getStatus()) {
+      if (chatOpen.getStatus()) {
 
-    $('#chat-wrapper').show();
+        $('#chat-wrapper').show();
 
-  }
+      }
 
-&lt;/script>
+    &lt;/script>
 
+    &lt;div>
 
-&lt;div>
+      &lt;div id="#chat-header">Chat header&lt;/div>
 
-  &lt;div id="#chat-header">Chat header&lt;/div>
+      &lt;div id="#chat-wrapper" style="display: none;">Chat Widget&lt;/div>
 
-  &lt;div id="#chat-wrapper" style="display: none;">Chat Widget&lt;/div>
-
-&lt;/div>
+    &lt;/div>
